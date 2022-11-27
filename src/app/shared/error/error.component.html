@@ -1,0 +1,8 @@
+<p>error works!</p>
+<ul>
+  <li *ngFor="let route of routesLink">
+    <a [routerLink]="route.url">
+      {{ route.title }}
+    </a>
+  </li>
+</ul>
